@@ -1,0 +1,27 @@
+Olti Asllanaj
+Spring 2017
+Chapter 4 - Project 1
+
+Project 1: Book rep Customer relations Management 
+difficuLty LEvEL: Beginner
+
+Overview
+
+Edit Chapter04-project01.html and Chapter04-project01.css so the page looks similar to that shown in Figure 4.30.
+
+Instructions
+
+1. You will need to create the calendar month using tables and provide the styling. 2. 
+   The month and date of the calendar should be within a <caption>.
+   
+3. Be sure to use the <fieldset> and <legend> elements for the form. As well,
+   be sure to use the appropriate accessibility features in the form.
+   
+4. Set up the form’s method attribute to GET and its action attribute to http://
+   www.randyconnolly.com/tests/process.php.
+   
+Test
+
+1. Test the form in the browser. Verify that the output from process.php matches that shown in Figure 4.30.
+
+2. Change the form method to POST and retest.
