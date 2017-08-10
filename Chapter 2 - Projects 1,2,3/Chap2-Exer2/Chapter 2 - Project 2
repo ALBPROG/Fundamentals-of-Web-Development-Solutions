@@ -1,0 +1,29 @@
+Olti Asllanaj
+Fall 2017
+Chapter 2 - Project 2
+
+Project 2: Book rep Customer relations management 
+DifficuLty LEvEL: Intermediate
+
+Overview
+
+This project is the first step in the creation of a CRM website. 
+In this project you will be augmenting the provided page to use semantic HTML5 tags.
+
+Instructions
+
+1. Open chapter02-project02.html in the editor of your choice, and in a browser. 
+   In this project the look of your page will remain unchanged from how it looks at the start as shown in Figure 2.24.
+
+2. Reflect on why adding semantic markup is a worthwhile endeavor, even if the final, rendered page looks identical.
+
+3. Replace and supplement generic HTML tags like <div> with semantic tags like <article>, <nav>, or <footer> (for example). 
+   Some parts make sense to wrap inside a tag such as <section> or <figure>.
+
+Test
+
+1. Firstly, test your page side by side with the original in a browser to make sure it looks the same.
+
+2. Validate the page by either using a built-in tool in your editor, or pasting the HTML 
+   into http://validator.w3.org/ and seeing if it passes. You will notice to pass it must do many extra 
+   things like have alt attributes on <img> tags.
