@@ -1,0 +1,121 @@
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+
+table {
+   margin: 2em auto;
+	color: #666;
+	font-size: 0.85em;
+}
+table caption {
+	background: #8FAB98;
+	color: black;
+	font-size: 1em;
+    padding-top: 0.750em;
+    padding-right: 0em;
+    padding-bottom: 0.500em;
+    padding-left: 0em;
+	text-align: center;
+
+}
+table th {
+	font-size: 0.65em;
+    background: #F2F2F2;
+	padding: 0.250em 0;
+	color: #666;
+	text-transform: uppercase;
+	border-bottom: 1px solid #bbbbbb;
+	
+}
+table a{
+	color: #467b52;
+}
+
+
+thead
+{
+    font-size: 0.65em;
+	padding: 0.250em 0;
+	color: #666;
+	text-transform: uppercase;
+	border-bottom: 1px solid #bbbbb1;
+	background: #F2F2F2;
+}
+table td {
+	color: #666;
+	text-shadow: 0 0.050em 0 rgba(255,255,255,0.5);
+	padding: 0.500em;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid;
+	border-color: #fff #bbbbbb #bbbbbb #fff;
+	background: #ededed;
+}
+tbody
+{
+    color: #666;
+    background: #ededed;
+	text-shadow: 0 0.050em 0 rgba(255,255,255,0.5);
+	padding: 0.500em;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid;
+	border-color: #fff #bbbbbb #bbbbbb #fff;
+	
+}
+tbody
+{
+    background: #F2F2F2;
+}
+table td.pa {
+	background: #F2F2F2;
+}
+
+tfoot{
+	color: #e0e0e0;
+	font-size: 0.750em;
+	text-align: center;
+}
+tfoot
+{
+    padding: 0.625em 0.625em;
+}
+table tfoot tr{
+	background: #F2F2F2;
+}
+table td{
+	padding: 0.625em 0.625em;
+}
+table tfoot a{
+	color: #666;
+	text-shadow: 0 0.050em 0 rgba(255,255,255,0.5);
+}
+table tfoot td#preview_Month {
+	text-align: left;
+}
+table tfoot td#next_Month {
+	text-align: right;
+}
+
+#box {
+    margin-top: 2em;
+    margin-right: auto;
+    margin-bottom: 0em;
+    margin-left: auto;
+   background-color: #D9C872;
+   width: 50%;
+   padding: 0.5em;
+}
+#box p {
+   margin: 0.5em;
+}
+
+#day{
+	color: #fff;
+	border: 1px solid #467b89;
+	background: #6eafbf;
+}
