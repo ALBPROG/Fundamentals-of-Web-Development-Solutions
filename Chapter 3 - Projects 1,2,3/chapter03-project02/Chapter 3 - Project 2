@@ -1,0 +1,37 @@
+Olti Asllanaj
+Spring 2017
+Chapter 3 - Project 2
+
+Project 2: Book rep Customer relations Management 
+difficuLty LEvEL: Intermediate
+
+Overview
+
+This project updates the CRM HTML page you started in Project 2.2 to add some visual style and make it look professional.
+Instructions
+
+1. Use your lab02-project02.html file from the last chapter as a starting point (and rename it) 
+or take our chapter03-project01.html starting point file.
+
+2. Import your existing reset.css from Project 1 to reset all default styles.
+
+3. Create an external style sheet named chapter03-project02.css and import as well.
+
+4. Add styles to chapter03-project02.css so that it looks similar to that shown inFigure 3.32. 
+   Do not modify the markup within the <body> element. This means defining styles for the header, footer, section, 
+   and other tags.
+   
+Hint: Notice the backgrounds for each of the section headers. Use attribute selectors for the mail and 
+telephone link icons as shown below:
+
+a[href^="mailto"] {
+background: url(images/email.png) no-repeat 0 3px; 
+padding-left: 1em;
+}
+a[href^="tel"] {
+background: url(images/call.png) no-repeat 0 3px;
+padding-left: 1em; }
+
+Testing
+
+1. Visually compare your output to that shown in Figure 3.32.
