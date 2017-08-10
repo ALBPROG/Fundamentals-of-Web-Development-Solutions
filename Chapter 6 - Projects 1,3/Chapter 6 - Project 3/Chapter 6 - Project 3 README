@@ -1,0 +1,31 @@
+Olti Asllanaj
+Spring 2017
+Chapter 6 - Project 3
+
+Project 3: progressive enhancement art gallery Search 
+DifficuLty LEvEL: Intermediate
+
+Overview
+
+You will build upon your existing HTML page designed in Chapter 4 Project 2, but replace the existing 
+content with an enhanced version (progressive enhancement) where a small piece of JavaScript is added so 
+that every image can be hovered on to see a larger thumbnail as needed.
+
+1. Like the previous two projects, begin by adding a link to a JavaScript file in the head of your page 
+(or right before the </body> tag).
+
+2. Slightly modify the HTML to add a class for each thumbnail image.
+
+3. In your JavaScript file, write a loop to seek out all the img tags with the newly
+   defined class (hint: querySelectorAll()).
+
+4. For each image, attach a listener on the mouseIn event to create a new <span>
+  with a larger image inside (based on the src attribute). Add another listener on the mouseOut event 
+  to hide the newly created <span>.
+  
+Test
+
+1. Reload the page, and see that as you hover over images, larger quality thumbnails are fetched and 
+seen in a <div> over the mouse location as shown in Figure 6.23.
+
+2. As you move your mouse out the page should return to the way it was before you hovered.
