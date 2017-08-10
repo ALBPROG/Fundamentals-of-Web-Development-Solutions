@@ -1,0 +1,23 @@
+Olti Asllanaj
+Spring 2017
+Chapter 4 - Project 3
+
+Project 3: share Your travel photos 
+difficuLty LEvEL: Advanced
+
+Overview
+
+Edit Chapter04-project03.html and Chapter04-project03.css so the page looks similar to that shown in Figure 4.32.
+
+1. Create the form and position the elements by placing them within a table. 
+   While we do not believe that this is best practice, legacy sites often use tables for layout so it may 
+   be sensible to get some experience with this approach. In the next chapter, you will learn how to use CSS 
+   for layout as a better alternative.
+   
+2. For the drop-down lists, add a few sensible items to each list. For the checkbox list, 
+they should be an array of elements. Notice also that this form makes use of a number of HTML5 form elements.
+
+Test
+
+1. Test the form in the browser. Verify that the output from process.php matches that shown in Figure 4.32. 
+Because this form uses HTML5 input elements that are not supported by all browsers, be sure to test in more than one browser.
