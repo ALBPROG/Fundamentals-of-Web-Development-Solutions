@@ -1,14 +1,14 @@
 h1, h2, h3, nav, footer {
- font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
 }
 body {
-   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
-   font-size: 85%;
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    font-size: 85%;
 }
 
 table {
-    border-collapse: collapse; 
-    border-spacing: 0;   
+    border-collapse: collapse;
+    border-spacing: 0;
     width; 100%;
     margin: 0 auto;
     line-height: 1.5em;
@@ -17,46 +17,46 @@ table {
 }
 tbody
 {
-   line-height: 1.5em;
-   vertical-align: top;
-   padding: 0.5em 0.75em; 
+    line-height: 1.5em;
+    vertical-align: top;
+    padding: 0.5em 0.75em;
 }
 td
 {
     line-height: 1.5em;
     vertical-align: top;
-    padding: 0.5em 0.75em;   
+    padding: 0.5em 0.75em;
 }
 legend {
-   background-color: #EBF4FF ;
-   margin: 0 auto;
-   width: 90%;
-   padding: 0.25em;
-   text-align: center;
-   font-weight: bold;
-   font-size: 100%;
+    background-color: #EBF4FF ;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0.25em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
 }
 fieldset {
-   margin: 1em auto;
-   background-color: #FAFCFF;
-   width: 60%;
+    margin: 1em auto;
+    background-color: #FAFCFF;
+    width: 60%;
 }
 form p {
-   margin-top: 0.5em;
+    margin-top: 0.5em;
 }
 
 .rightBoxes {
-   border: 1pt solid #95BEF0;
-   padding: 0.5em;
-   margin-bottom: 0.4em;
+    border: 1pt solid #95BEF0;
+    padding: 0.5em;
+    margin-bottom: 0.4em;
 }
 
 .rec {
-   background-color: #EBF4FF;
-   padding: 0.5em;
+    background-color: #EBF4FF;
+    padding: 0.5em;
 }
 .center {
-   text-align: center;
+    text-align: center;
 }
 
 .rounded:hover {
@@ -74,14 +74,14 @@ form p {
 
 .round
 {
-   color: white;
-   background-color: #8c9cbf;
-   border: 1px solid #172d6e;
-   border-bottom: 1px solid #0e1d45;
-   border-radius: 5px;
-   text-align: center;
-   padding: 0.5em 0 0.5em 0;
-   margin: 0.3em;
-   width: 7em;
-  
+    color: white;
+    background-color: #8c9cbf;
+    border: 1px solid #172d6e;
+    border-bottom: 1px solid #0e1d45;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
+    margin: 0.3em;
+    width: 7em;
+    
 }

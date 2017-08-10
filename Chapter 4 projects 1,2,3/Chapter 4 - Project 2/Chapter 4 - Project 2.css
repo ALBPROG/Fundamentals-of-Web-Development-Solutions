@@ -1,79 +1,79 @@
 h1, h2, h3, nav, footer {
- font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
 }
 body {
-   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
-   font-size: 80%;
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    font-size: 80%;
 }
-div#search 
-{ 
-    margin-top: 1em; 
-    margin: 0.25em auto;
-   background-color: #EBF4FF;
-   padding: 1em;
-   border: 1.5pt solid #95BEF0;
-   width: 80%;
-}
-div#set 
+div#search
 {
-   margin: 0.25em auto;
-   background-color: #EBF4FF;
-   padding: 1em;
-   border: 1.5pt solid #95BEF0;
-   width: 80%;
+    margin-top: 1em;
+    margin: 0.25em auto;
+    background-color: #EBF4FF;
+    padding: 1em;
+    border: 1.5pt solid #95BEF0;
+    width: 80%;
+}
+div#set
+{
+    margin: 0.25em auto;
+    background-color: #EBF4FF;
+    padding: 1em;
+    border: 1.5pt solid #95BEF0;
+    width: 80%;
 }
 
-div#art { 
+div#art {
     background-color: #EBF4FF;
-   margin-top: 1em; 
-   background-color: #FAFCFF;
+    margin-top: 1em;
+    background-color: #FAFCFF;
     margin: 0.25em auto;
     padding: 1em;
-   border: 1.5pt solid #95BEF0;
-   width: 80%;
-   }
+    border: 1.5pt solid #95BEF0;
+    width: 80%;
+}
 
 caption {
-   background-color: #95BEF0;
-      padding: 0.5em 0.5em; 
-      font-weight: bold;
-      font-size: 1.2em;
+    background-color: #95BEF0;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 table {
-   border-collapse: collapse; 
-   border-spacing: 0;
-   
+    border-collapse: collapse;
+    border-spacing: 0;
+    
 }
 
 table td{
-   border-top: 1pt solid #95BEF0;   
-   line-height: 1.5em;
-   vertical-align: middle;
-   padding: 0.5em 0.75em;
+    border-top: 1pt solid #95BEF0;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding: 0.5em 0.75em;
 }
 
 tbody
 {
-    border-top: 1pt solid #95BEF0;   
-   line-height: 1.5em;
-   vertical-align: middle;
-   padding: 0.5em 0.75em; 
+    border-top: 1pt solid #95BEF0;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding: 0.5em 0.75em;
 }
 table th {
-   text-align: left;
-   padding: 0.25em 0.75em; 
+    text-align: left;
+    padding: 0.25em 0.75em;
 }
 thead
 {
-   text-align: left;
-   padding: 0.25em 0.75em;  
+    text-align: left;
+    padding: 0.25em 0.75em;
 }
 table thead {
-   background-color: #EBF4FF ;
+    background-color: #EBF4FF ;
 }
 
 table tbody td:first-child  {
-   text-align: center;
-   padding: 0.5em 0em;   
+    text-align: center;
+    padding: 0.5em 0em;
 }
 
