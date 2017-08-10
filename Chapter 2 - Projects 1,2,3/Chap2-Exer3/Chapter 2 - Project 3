@@ -1,0 +1,26 @@
+Olti Asllanaj
+Spring 2017
+Chapter 2 - Project 3
+
+Project 3: art Store DifficuLty 
+LEvEL: Advanced
+
+Overview
+
+This project is the first step in the creation of an art store website. Unlike the previ- ous exercises, 
+your task is to create an HTML page from scratch based on the image in Figure 2.25.
+
+Instructions
+
+1. Define your own chapter02-project03.html file in the editor of your choice, and open it in a browser.
+
+2. Add markup and content, making best guesses as to what HTML markup to use.
+
+3. Remember to try and get in the habit of using semantic markup, since it adds meaning and has no visual impact.
+
+Test
+
+1. Display your page in a browser, and determine if it looks like Figure 2.25.
+
+2. Validate the page by pasting the HTML into http://validator.w3.org/ and
+   seeing if it passes.
