@@ -1,0 +1,128 @@
+h1, h2, h3, p, body, div 
+{
+  font-family: Tahoma, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+body 
+{
+  background-color: white;
+    
+}
+
+
+h1 {
+    font-size: 1.8em;
+    margin: 0.25em 0 0.25em 0;
+    padding: .5em 0em 0em 0.5em
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0 0.25em 0;
+}
+
+p,body 
+{
+    font-size: 0.9em;
+   
+}
+
+p 
+{
+  margin-bottom: 1em;
+}
+
+article 
+{
+  background-color: #F5F5F5;
+  margin-top: 3em;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+    padding-bottom: 1em;
+}
+
+article div 
+{
+  clear: right;
+}
+
+figure 
+{
+  position: relative;
+  float: left;
+}
+
+figcaption 
+{
+    width: 143px;
+    background-color: black;
+    color: white;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    padding: 0em 0em 0em 0.5em;
+}
+
+.overimage {
+  position: absolute;
+  left: 1px;
+  bottom: 3px;
+}
+
+.information{
+  overflow: auto;
+  border-top: 1pt solid #ff8800;
+    
+}
+
+.linkbutton {
+  background-color: #ff8800;
+  color: white;
+  text-decoration: none;
+  font-size: 0.75em;
+  float: right;
+  padding: .8em;
+  margin-right: 1em;
+}
+
+footer {
+  background-color: #474747;
+  color: #cacaca;
+min-width: 100%;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+
+footer h2 {
+  color: #a4a1a1;
+}
+
+.footer {
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  float: left;
+  border-top: 1pt solid #ff8800;
+ max-width: 100%;
+ 
+}
+
+.footer-related img {
+  margin: 3px;
+}
+
+.footerSection {
+  margin-right: 1.5em;
+  padding: .26em;
+ overflow: hidden;
+  min-width: 70%;
+   border-top: 1pt solid #ff8800;
+}

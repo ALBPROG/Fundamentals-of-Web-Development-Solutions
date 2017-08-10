@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Chapter05</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="Chapter 5 - Project 2.css" />
+</head>
+
+<body>
+  <header>
+    <a class="logo" href="#">Not A Real CRM</a>
+    <nav>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Tasks</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+  <div id="box">
+    <div id="middle">
+      <div class="breadcrumb">
+        <a href="#">Dashboard</a> / <a href="#">Sales</a>
+      </div>
+        
+      <h2>Invoice</h2>
+      <div id="company">
+        <h4>Pearson Ed Canada</h4> 26 Prince Andrew Place
+        <br/> Don Mills, Ontario M3C 2T8
+        <br/> 416-447-5101
+        <br/> 1-800-263-9965
+      </div>
+        
+      <div id="clientInfo">
+        <h4>Martha Silk</h4> 194A Chain Lake Drive
+        <br/> Halifax, NS B3S 1C5
+        <br/> +1 (902) 450-0450
+      </div>
+        
+      <hr>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">ISBN</th>
+            <th scope="col">Year</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="image/photo1.jpg" alt="Precalculus" /></td>
+              
+            <td><em>Precalculus</em></td>
+            <td>Robert Blitzer</td>
+            <td>0321837347</td>
+            <td>2014</td>
+          </tr>
+          <tr>
+            <td><img src="image/photo2.jpg" /></td>
+            <td><em>College Algebra with Modeling & Visualization</em></td>
+            <td>Gary Rockswold</td>
+            <td>0321826132</td>
+            <td>2014</td>
+          </tr>
+            
+          <tr>
+            <td><img src="image/photo3.jpg" /></td>
+            <td><em>Algebra and Trigonometry with Modeling & Visualization</em></td>
+            <td>Gary Rockswold</td>
+            <td>0321826124</td>
+            <td>2014</td>
+          </tr>
+            
+        </tbody>
+      </table>
+      <p><a href="#" class="SendButton">Send to Client</a></p>
+    </div>
+    <div id="railLeft">
+      <div class="alertLeft">
+        <span class="icon-user"></span>
+        <strong>John Locke</strong>
+        <br/> Senior Sales Rep
+        <br/>
+        <a href="#">Settings</a> | <a href="#">Logout</a>
+      </div>
+      <nav class="great">
+        <ul>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">Tasks</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Calendar</a></li>
+        </ul>
+      </nav>
+        
+      <div class="great">
+        <h3>Recent Messages</h3>
+        <ul id="recentMessageList">
+          <li><img src="image/icon.png" class="blockIcon">
+            <p>From <a href="#">Ellie Sullivan</a>
+              <br/>On 4 October, 2014 </p>
+          </li>
+          <li><img src="image/icon.png" class="blockIcon">
+            <p>From <a href="#">Madalena Sampaio</a>
+              <br/>On 4 October, 2014 </p>
+          </li>
+          <li><img src="image/icon.png" class="blockIcon">
+            <p>From <a href="#">Puja Srivastava</a>
+              <br/>On 3 October, 2014 </p>
+          </li>
+          <li><img src="image/icon.png" class="blockIcon">
+            <p>From <a href="#">Mark Taylor</a>
+              <br/>On 2 October, 2014 </p>
+          </li>
+          <li><img src="image/icon.png" class="blockIcon">
+            <p>From <a href="#">Madalena Sampaio</a>
+              <br/>On 2 October, 2014 </p>
+          </li>
+          <li><img src="image/icon.png" class="blockIcon">
+            <p>From <a href="#">Ellie Sullivan</a>
+              <br/>On 1 October, 2014 </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <aside>
+      <div class="great">
+        <h3>Weekly Changes</h3>
+        <ul id="chList">
+          <li><span class="chNumber">20</span>
+            <p>New Orders</p>
+          </li>
+          <li><span class="chNumber">5</span>
+            <p>New Books</p>
+          </li>
+          <li><span class="chNumber">6</span>
+            <p>New Customers</p>
+          </li>
+        </ul>
+      </div>
+      <div class="great">
+        <h3>Top Sellers</h3>
+        <ul id="sellList">
+          <li>
+            <img src="image/photo4.jpg" alt="English for Careers" class="boxBook" />
+            <p class="bookTitle"><em><a href="#">English for Careers</a></em></p>
+          </li>
+          <li>
+            <img src="image/photo5.jpg" alt="Adaptive Filter Theory" class="boxBook" />
+            <p class="bookTitle"><em><a href="#">Adaptive Filter Theory</a></em></p>
+          </li>
+          <li>
+            <img src="image/photo6.jpg" alt="Data Structures and Algorithm Analysis" class="boxBook" />
+            <p class="bookTitle"><em><a href="#">Data Structures and Algorithm Analysis</a></em></p>
+          </li>
+          <li>
+            <img src="image/photo7.jpg" alt="Ownership Series: Ownership: Critical Thinking" class="boxBook" />
+            <p class="bookTitle"><em><a href="#">Ownership Series: Ownership: Critical Thinking</a></em></p>
+          </li>
+          <li>
+            <img src="image/photo8.jpg" alt="Opportunities and Challenges of Workplace Diversity" class="boxBook" />
+            <p class="bookTitle"><em><a href="#">Opportunities and Challenges of Workplace Diversity</a></em></p>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+
+</body>
+
+</html>

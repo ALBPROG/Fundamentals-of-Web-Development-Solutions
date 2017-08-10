@@ -1,0 +1,245 @@
+header,footer,nav,div,p,body 
+{
+  font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+  font-size: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+header 
+{
+  background-color: rgb(63, 159, 217);
+  height: 3em;
+}
+
+header .logo {
+  font-family: Vendana, Tahoma, sans-serif;
+  float: left;
+  padding: 8px 20px 12px;
+  margin-left: 3em;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+header nav {
+  margin: 0.70em 1em 0 0;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  vertical-align: -9px;
+  display: inline-block;
+  padding: 0 1em;
+}
+
+header li a:link {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+div#box {
+  positon: relative;
+  width: 100%;
+}
+
+#middle {
+  margin: 0 20em 0 16em;
+
+}
+
+aside 
+{
+  position: absolute;
+  top: 3.8em;
+  right: 0;
+  width: 19em;
+  
+}
+
+#railLeft 
+{
+  position: absolute;
+  top: 3.82em;
+  left: 0;
+  width: 15em;
+  display: inline-block;
+  
+}
+
+
+.great,.alertLeft 
+{
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.great 
+{
+  background-color: #f5f5f5;
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.great h3 
+{
+  background-color: #b6d1f2;
+  padding: 1em;
+}
+
+.alertLeft 
+{
+  background-color: #edebe1;
+  border-color: #e0d9cb;
+  color: #817b58;
+}
+
+.breadcrumb 
+{
+  padding: 0.5em 1em;
+  list-style: none;
+  background-color: #fbfbfb;
+}
+
+
+#middle 
+{
+  padding: 0.5em 0.75em;
+ 
+}
+
+#middle h2 {
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+#middle h4 {
+  padding-top: 1.5em;
+  font-size: 1.2em;
+}
+
+#middle th {
+  text-align: left;
+}
+
+#middle table {
+  display: inline-block;
+}
+
+#middle #company {
+  float: left;
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+}
+
+#middle #clientInfo {
+  float: right;
+  font-size: 0.8em;
+}
+
+#middle hr {
+  clear: both;
+}
+
+.SendButton {
+  margin-top: 1em;
+  background-color: rgb(63, 159, 217);
+  text-align: center;
+  color: #f5f5f5;
+  text-decoration: none;
+  display: block;
+  width: 11em;
+  padding: .25em;
+}
+
+
+#railLeft nav {}
+
+#railLeft nav ul {
+  list-style-type: none;
+  font-size: 1.1em;
+    padding-left:.5em 
+}
+
+#railLeft nav ul li {
+  margin-bottom: 0.4em;
+}
+
+
+ul#chList,ul#sellList,
+ul#recentMessageList {
+  background-color: white;
+  list-style-type: none;
+}
+
+ul#chList li {
+  overflow: auto;
+  padding-top: 1em;
+  
+  
+}
+
+ul#chList li p {
+  padding-top: 0.5em;
+  margin-top: 0;
+}
+
+ul#chList li span {
+  min-width: 1.75em;
+  text-align: right;
+  font-size: 2em;
+  padding: 0 1em 0 1em;
+  color: #616466;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  float: left;
+}
+
+ul#sellList li,
+ul#recentMessageList li 
+{
+  overflow: auto;
+  padding: 1em 0.25em 0 0;
+  font-size: 0.75em;
+}
+
+ul#sellList img {
+  float: left;
+  max-width: 100%;
+ 
+}
+
+ul#sellList p {
+  padding-top: 1.5em;
+  
+}
+
+ul#recentMessageList img {
+
+  
+  max-width: 100%;
+
+}
+.blockIcon {
+  float: left;
+  position: relative;
+  top: 25px;
+}
+
+#recentMessageList li p {
+  font-size: 0.9em;
+  padding: 0.3em 2em;
+  overflow: hidden;
+
+  
+ 
+
+}
