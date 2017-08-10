@@ -1,0 +1,35 @@
+Olti Asllanaj
+Spring 2017
+Chapter 8 - Project 1
+
+Project 1: book rep Customer relations Management 
+DifficuLty LEvEL: Beginner
+
+Overview
+
+Demonstrate your ability to work with PHP by converting Chapter08-project01. html into a PHP file that looks 
+similar to that shown in Figure 8.16.
+
+Instructions
+
+1. You have been provided with an HTML file (Chapter08-project01.html) that includes all the necessary markup. 
+   Save this file as Chapter08-project01.php.
+
+2. Use the PHP include() function to include the file book-data.php. This file sets the values of two variables: 
+   $email and $password.
+
+3. Use a for loop to output the <option> elements (see Figure 8.16).
+
+4. Use an if...else statement to display an error message and add the has-error CSS class to the appropriate 
+   <div class="form-group"> element if the $email variable is empty.
+
+5. Do the same thing for the $password variable.
+
+Test
+
+1. Test the page. Remember that you cannot simply open a local PHP page in the browser using its open command. 
+   Instead you must have the browser request the page from a server. 
+   If you are using a local server such as XAMMP, the file must exist within the htdocs folder of the server, 
+   and then the request will be localhost/some-path/chapter08-project01.php.
+
+2. Verify that the logic works by editing the values of the two variables in the book-data.php file.
