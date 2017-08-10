@@ -1,0 +1,42 @@
+Olti Asllanaj
+Spring 2017
+Chapter 8 - Project 2
+
+Project 2: art store 
+DifficuLty LEvEL: Intermediate
+
+Overview
+
+Demonstrate your ability to work with PHP by converting Chapter08-project02. html into a PHP file that looks 
+similar to that shown in Figure 8.17.
+
+Instructions
+
+1. You have been provided with an HTML file (Chapter08-project02.html) that includes all the necessary markup. 
+   Save this file as Chapter08-project02.php.
+
+2. Move the header and footer into two separate include files named art-header. inc.php and art-footer.inc.php. 
+   Use the PHP include() function to include each of these files back into the original file.
+
+3. Use a for loop to output the special list (see Figure 8.17).
+
+4. Create a function called outputCartRow() that has the following signature: 
+   function outputCartRow($file, $product, $quantity, $price) { }
+
+5. Implement the body of the outputCartRow() function. It should echo the passed information as a table row. 
+   Use the number_format() function to format the currency values with two decimal places. 
+   Calculate the value for the amount column.
+
+6. Replace the two cart table rows in the original with the following calls:
+   outputCartRow($file1, $product1, $quantity1, $price1);
+   outputCartRow($file2, $product2, $quantity2, $price2);
+
+7. The above variables are defined in the file art-data.php. You will need to include this file.
+
+8. Calculate the subtotal, tax, shipping, and grand total using PHP. Replace the hard-coded values 
+   with your variables that contain the calculations. Use 10 percent as the tax amount. 
+   The shipping value will be $100 unless the subtotal is above $2000, in which case it will be $0.
+
+Test
+1. Test the page in the browser (see the test section of the previous section to remind yourself about how to do this). 
+   Verify that the calculations work appropriately by changing the values in the art-data.php file.
