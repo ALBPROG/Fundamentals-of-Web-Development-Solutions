@@ -1,0 +1,27 @@
+Olti Asllanaj
+Spring 2017
+Chapter 5 - Project 2
+
+Project 2: book rep Customer relations Management 
+DifficuLty LEvEL: Intermediate
+
+Overview
+
+Demonstrate your proficiency with absolute positioning and floats by modifying chapter05-project02.css 
+so that chapter05-project02.html looks similar to that shown in Figure 5.39.
+
+Instructions
+
+1. Examine chapter05-project01.html in the browser. The HTML does not need to be modified for this project.
+
+2. You will create the three-column layout using absolute positioning and margin settings as described in Section 5.4.1.
+
+3. Within the main column, the company and client addresses will use floats rather than positioning.
+
+4. Within the boxes for recent messages, weekly changes, and top sellers, you will need to use floats, 
+block display, and padding values.
+
+Testing
+
+1. Be sure to test by increasing/decreasing the browser zoom level. If you have used em units for font 
+sizes and most margin and padding values, it should scale to the different zoom levels.

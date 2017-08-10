@@ -1,0 +1,28 @@
+Olti Asllanaj
+Spring 2017
+Chapter 5 - Project 1
+
+project 1: share Your travel photos 
+difficuLty LEvEL: Basic
+
+Overview
+
+Demonstrate your proficiency with CSS floats along with margins and padding by modifying chapter05-project01.css 
+so that chapter05-project01.html looks similar to that shown in Figure 5.38.
+
+Instructions
+
+1. Examine chapter05-project01.html in the browser. The HTML does not need to be modified for this project.
+
+2. Change the margins and padding of the <article> element. For most of the margins, paddings, widths, and heights, 
+you should use em units.
+
+3. Use the techniques from Sections 5.3.3 and 5.3.4 to display the content within the <article>. 
+The <footer> uses the same float techniques. It is okay to use pixel units for the overlapping elements.
+
+4. The colors used in this example are: #F5F5F5, #FF8800, and #474747. You are also free to use whatever colors you like.
+
+Testing
+
+1. Be sure to test in more than one browser and also try increasing/decreasing the browser zoom level. 
+If you have used em units for font sizes and most margin and padding values, it should scale to the different zoom levels.
