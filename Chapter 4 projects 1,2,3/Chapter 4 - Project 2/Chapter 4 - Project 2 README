@@ -1,0 +1,30 @@
+Olti Asllanaj
+Spring 2017
+Chapter 4 - Project 2
+
+Project 2: art store 
+difficuLty LEvEL: Intermediate
+
+Overview
+
+Edit Chapter04-project02.html and Chapter04-project02.css so the page looks similar to that shown in Figure 4.31.
+
+Instructions
+
+1. The form at the top of this page consists of a text box, and two drop-down lists. 
+   For the Genre list, make the other choices “Baroque,” “Renaissance,” and “Realism.” 
+   The drop-down list items should have numeric values starting with O. Notice the placeholder text in the search box.
+   
+2. Create a table of paintings that looks similar to that shown in Figure 4.31. Be sure to make the table properly accessible.
+
+3. The checkboxes in the table should be an array of elements, e.g., <input type="checkbox" name "index[]" value="10" />. 
+   The name and values are arbitrary, but each checkbox needs to have a unique value.
+   
+4. The button in each row is a <button> element with a dummy link.
+
+5. Set the form’s method attribute to POST and its action attribute to http://
+   www.randyconnolly.com/tests/process.php.
+   
+Test
+
+1. Test the form in the browser. Verify that the output from process.php matches that shown in Figure 4.31.
