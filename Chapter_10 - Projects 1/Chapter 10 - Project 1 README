@@ -1,0 +1,38 @@
+Olti Asllanaj
+Spring 2017
+Chapter 10 - Project 1
+
+Project 1: share Your travel photos
+DifficuLty LEvEL: Intermediate
+
+Overview
+
+This exercise walks you through the usage of a static class variable, and simple data encapsulation. 
+It builds on the structure you have from Chapter 9 Project 2, but replaces arrays of arrays with a single array 
+of objects of type TravelImage.
+
+Instructions
+1. Create a file named TravelPhoto.class.php and within it define a class named TravelPhoto, which has private properties: 
+date, fileName, description, title, latitude, longitude, and ID.
+
+2. Define a static member variable named photoID, which will be used to set each instance’s ID value and then be incremented, 
+all inside the class constructor.
+
+3. Create a constructor that takes in fileName, title, description, latitude, and longitude.
+
+4. Implement the __toString() method that should return the HTML markup for an <img> element for the member data within 
+this object. This <img> element should also have alt and title attributes set to the value of the object’s title property.
+
+5. Open travel-data-classes.php. Notice that it contains instantiations of TravelPhoto objects inside an array.
+
+6. Modify your Chapter09-project02.php to use the array of objects within travel-data-classes.php rather than the data 
+in travel-data.php. Hint: Use your new __toString() method.
+
+Testing
+
+1. Open your script in a browser to see the output. You should see output identical to that in Figure 9.14.
+
+2. Hover over the image to ensure the title attribute of each image is set.
+
+3. Clicking the link will still take you to travel-image.php with the id element
+passed as a query string parameter.
