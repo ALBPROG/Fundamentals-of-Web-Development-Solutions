@@ -1,0 +1,34 @@
+Olti Asllanaj
+Spring 2017
+Chapter 6 - Project 1
+
+Project 1: Simple login Form prevalidation
+DifficuLty LEvEL: Beginner
+
+Overview
+
+You will create JavaScript prevalidation for the form in Chapter06-project01.html. 
+This project builds on Chapter 4 Project 3 (the Photo sharing site upload form).
+
+Instructions
+
+1. You will need to link to an external JavaScript file in the head of the page so that you can write code in its own file.
+
+2. You should define a CSS style to use when highlighting a blank field.
+
+3. Set up a listener on the form’s submit event so that the code prevents submission
+of the form (preventDefault()) if either the title or description field is left blank
+or the accept license box is not checked, but otherwise submits the form.
+
+4. Enhance the JavaScript so that blank fields trigger a change in the appearance
+of the form (using the style defined earlier).
+
+5. Add another listener to the fields so that when the user types into a field
+(changed event) JavaScript removes the red color you just added.
+
+Test
+
+1. Test the form in the browser. Try submitting the form with either field blank. 
+You should see the field highlighted and notice the page will not be refreshed as shown in Figure 6.21.
+
+2. Type into one of the highlighted fields, and the error color should be immediately removed.
