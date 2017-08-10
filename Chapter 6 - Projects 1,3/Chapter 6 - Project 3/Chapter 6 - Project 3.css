@@ -1,0 +1,61 @@
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 80%;
+}
+
+div#searchBox, div#settingsBox, div#artistBox {
+   margin: 0.25em auto;
+   background-color: #EBF4FB;
+   padding: 1em;
+   border: 1pt solid #95BEF0;
+   width: 80%;
+}
+div#searchBox { margin-top: 1em; }
+div#artistBox { 
+   margin-top: 1em; 
+   background-color: #FAFCFF;
+   }
+
+table {
+   border: collapse; 
+   border-spacing: 0;
+   
+}
+
+table tbody td{
+   border-top: 1pt solid #95BEF0;   
+   line-height: 1.5em;
+   vertical-align: middle;
+   padding: 0.5em 0.75em;
+}
+table thead th {
+   text-align: left;
+   padding: 0.25em 0.75em; 
+}
+table thead {
+   background-color: #EBF4FB ;
+}
+
+table tbody td:first-child  {
+   text-align: center;
+   padding: 0.5em 0em;   
+}
+
+caption {
+   background-color: #95BEF0;
+      padding: 0.5em 0.5em; 
+      font-weight: bold;
+      font-size: 1.2em;
+}
+
+.bigImg{
+	position:absolute;
+	border: solid 10px black;
+	margin:10px;
+	background-color:#FFFFFF;
+	padding:10px;
+}

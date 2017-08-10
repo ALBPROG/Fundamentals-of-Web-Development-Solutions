@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 6</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="Chapter 6 - Project 3.css" />
+</head>
+<body>
+<form method="get" action="">
+<div id="searchBox">
+   <input type="search" name="search" placeholder="Search titles" /><input type="submit" value="Search" />
+</div>   
+<div id="settingsBox">
+   <select name="actions">
+      <option value="0">Actions</option>
+      <option value="1">Archive</option>
+      <option value="2">Delete</option>   
+   </select>
+   <input type="submit" value="Apply" />
+   <select name="filter">
+      <option value="0">Genre</option>
+      <option value="1">Baroque</option>
+      <option value="2">Mannerism</option>   
+      <option value="3">Neo-Classicism</option>       
+      <option value="4">Realism</option>   
+      <option value="5">Romanticism</option>    
+   </select>
+   <input type="submit" value="Filter" />
+</div>
+<div id="artistBox">
+   <table>
+      <caption>Paintings</caption>
+      <thead>
+         <tr>
+            <th colspan="2"></th>
+            <th scope="col">Title</th>
+            <th scope="col">Artist</th>    
+            <th scope="col">Year</th> 
+            <th scope="col">Genre</th> 
+            <th></th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td><input type="checkbox" name="index[]" value="10" /></td>
+            <td><img src="images/05030.jpg" alt="Death of Marat" class="artThumb"/></td>
+            <td><em>Death of Marat</em></td>
+            <td>David, Jacques-Louis </td>           
+            <td>1793</td>
+            <td>Romanticism</td>  
+             <td><button><a href="#"><img src="images/edit16.png" alt="" /> Edit</a></button></td>
+         </tr>
+         <tr>
+            <td><input type="checkbox" name="index[]" value="20"/></td>
+            <td><img src="images/120010.jpg" alt="Portrait of Eleanor of Toledo" /></td>
+            <td><em>Portrait of Eleanor of Toledo</em></td>
+            <td>Bronzino, Agnolo </td>           
+            <td>1545</td>
+            <td>Mannerism</td>  
+             <td><button><a href="#"><img src="images/edit16.png" alt="" /> Edit</a></button></td>
+         </tr>         
+         <tr>
+            <td><input type="checkbox" name="index[]" value="30"/></td>
+            <td><img src="images/07020.jpg" class="artThumb" alt="Liberty Leading the People" /></td>
+            <td><em>Liberty Leading the People</em></td>
+            <td>Delacroix, Eugene    </td>           
+            <td>1830</td>
+            <td>Romanticism</td>  
+             <td><button><a href="#"><img src="images/edit16.png" alt="" /> Edit</a></button></td>
+         </tr>   
+         <tr>
+            <td><input type="checkbox" name="index[]" value="40"/></td>
+            <td><img src="images/13030.jpg" class="artThumb" alt="Arrangement in Grey and Black" /></td>
+            <td><em>Arrangement in Grey and Black</em></td>
+            <td>Whistler, James Abbott    </td>           
+            <td>1871</td>
+            <td>Realism</td>  
+             <td><button><a href="#"><img src="images/edit16.png" alt="" /> Edit</a></button></td>
+         </tr>  
+         <tr>
+            <td><input type="checkbox" name="index[]" value="50"/></td>
+            <td><img src="images/06010.jpg" class="artThumb" alt="Mademoiselle Caroline Riviere" /></td>
+            <td><em>Mademoiselle Caroline Riviere</em></td>
+            <td>Ingres, Jean-Auguste</td>           
+            <td>1806</td>
+            <td>Neo-Classicism</td>  
+             <td><button><a href="#"><img src="images/edit16.png" alt="" /> Edit</a></button></td>
+         </tr>  
+      </tbody>
+   </table>
+</div>   
+</form>
+<script type="text/javascript" src="Chapter 6 - Project 3.js"></script>
+</body>
+</html>

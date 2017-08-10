@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter06-Project01</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="Chapter 6 - Project 1.css" />
+   <script type="text/javascript" src="Chapter 6 - Project 1.js"></script>
+</head>
+<body>
+<form method="get" action="" id="mainForm">
+   <fieldset>
+      <legend>Photo Details</legend>
+      <table>
+         <tr>
+            <td colspan="2">
+               <p>
+               <label>Title</label><br/>
+               <input type="text" name="title" size="80" class="required" />
+               </p>
+               <p>
+               <label>Description</label><br/>
+               <textarea name="description" rows="5" cols="61" class="required">
+               </textarea>
+               </p>            
+            </td>
+         </tr>
+         <tr>
+            <td> 
+               <p> 
+               <label>Continent</label><br/>
+               <select name="continent">
+                  <option>Choose continent</option> 
+                  <option>Africa</option>
+                  <option>Asia</option>
+                  <option>Europe</option>
+                  <option>North America</option>
+                  <option>South America</option>
+               </select>
+               </p>
+               <p> 
+               <label>Country</label><br/>
+               <select name="country">
+                  <option>Choose country</option> 
+                  <option>Canada</option>
+                  <option>Mexico</option>
+                  <option>United States</option>
+               </select>
+               </p>
+               <p>	
+               <label>City</label><br/>               
+               <input type="text" name="city" list="cities"  size="40"/>
+               <datalist id="cities">
+                  <option>Calgary</option>                
+                  <option>Montreal</option>
+                  <option>Toronto</option>                  
+                  <option>Vancouver</option>
+               </datalist>
+               </p>
+            </td>
+            <td>
+               <div class="box">
+                  <label>Copyright? </label><br/>
+                  <input type="radio" name="copyright" value="1">All rights reserved<br/>
+                  <input type="radio" name="copyright" value="2" checked>Creative Commons<br/>
+               </div>
+               <div class="box">
+                  <label>Creative Commons Types </label><br/>
+                  <input type="checkbox" name="cc" >Attribution <br/>
+                  <input type="checkbox" name="cc" >Noncommercial <br/>    
+                  <input type="checkbox" name="cc" >No Derivative Works <br/>  
+                  <input type="checkbox" name="cc" >Share Alike
+               </div>               
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" >
+            <div class="rectangle"> 
+               <label>I accept the software license</label>
+               <input type="checkbox" name="accept" class="required">
+            </div>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                  <p>
+                  <label>Rate this photo: <br/>
+                  <input type="number" min="1" max="5" name="rate" />  
+                      </label></p>                  
+                  <p>
+                  <label>Color Collection: <br/>
+                  <input type="color"  name="color" />   
+                      </label></p>                  
+            </td>
+            <td>
+               <div class="box">
+                  <p>
+                  <label>Date Taken: <br/>
+                  <input type="date"  name="date" />   
+                      </label></p>
+                  <p>
+                  <label>Time Taken: <br/>
+                  <input type="time"  name="time" />   
+                      </label></p>                  
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2">
+               <div class="rectangle centered"> 
+                  <input type="submit" class="rounded"> <input type="reset" value="Clear Form" class="rounded">      
+                </div>
+            </td>
+         </tr>
+      </table>
+   </fieldset>
+</form>
+</body>
+</html>
