@@ -1,0 +1,172 @@
+
+h1, h2, h3, nav, footer {
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+body {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background-color: rgb(33, 54, 66);
+}
+h1
+{
+    font-size: 1.5rem;
+}
+h2
+{
+    font-size: 0.75rem;
+}
+
+p
+{
+    font-size: 1rem;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+}
+nav
+{
+    font-size: 1.125rem;
+}
+
+/* Style for the link */
+a:link
+{
+    font-weight: bold;
+    color: rgb(71, 179, 215);
+}
+a:visited
+{
+    color: rgb(187,120,255);
+}
+a:hover {
+    background-color: rgb(255,255,204);
+}
+
+header, footer
+{
+    
+    color: white;
+    background-color: #3D6271;
+    margin-top: 0em;
+    margin-right: 4em;
+    margin-bottom: 0.5em;
+    margin-left: 4em;
+    
+}
+hgroup
+{
+    padding: 0.5em;
+}
+nav
+{
+    background-color: rgb(61,98,113)
+}
+nav ul li
+{
+    list-style: none;
+    display: inline;
+}
+nav
+{
+    padding: 0.25em;
+    
+}
+nav a
+{
+    padding: 0.25em;
+}
+
+article
+{
+    background-color: white;
+    margin-top: 1em;
+    margin-right: 4em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    padding: 0.5em;
+}
+.line
+{
+    font-size: 0.875rem;
+    color: #728B96;
+    font-style: italic;
+    
+}
+figcaption
+{
+    font-size: 0.875rem;
+    color: #728B96;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+/* Style for Figure */
+
+figure
+{
+    margin-top: 0.5em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+}
+figure img
+{
+    padding: 0.25em;
+    border: solid 1.5px #999999;
+}
+figure div
+{
+    margin: 0.25em 0 2em 0;
+    padding: 0.5em;
+    width: 485px;
+    background-color: #9FAAB0;
+    border: solid 1.5px #999999;
+    border-radius: 4px;
+    
+    background-repeat: repeat-x;
+}
+figure div  p
+{
+    font-size: 70%;
+}
+figure div img
+{
+    padding: 0;
+    border: 0;
+}
+figure div p
+{
+    margin: 0;
+}
+
+#reviews
+{
+    margin-top: 1em;
+}
+#reviews div
+{
+    border-bottom: dotted 1pt #999999;
+    margin-bottom: 1.25em;
+}
+#reviews p
+{
+    margin: 0;
+}
+
+/* Style for footer */
+footer
+{
+    padding: 0.5em;
+}
+footer p
+{
+    font-size: .875rem;
+}
+
+h3
+{
+    font-size: 1.125rem;
+    border-bottom: solid 1pt rgb(153, 153, 153);
+    margin: 0 0 0.5em 0;
+}
