@@ -1,0 +1,39 @@
+Olti Asllanaj
+Spring 2017
+Chapter 3 Project 3
+
+Project 3: art Store 
+difficuLty LEvEL: Advanced
+
+Overview
+
+This project builds on the art store example from the previous chapter (Project 2.3), but purposefully 
+leaves you having to dig a little deeper into CSS.
+
+Instructions
+
+1. Create a new file named chapter03-project03.html and remove all default styles via a reset.css stylesheet, 
+   as done for the previous two projects.
+   
+2. Modify chapter03-project03.html and an associated style sheet so that your output looks similar to 
+   that shown in Figure 3.31. Do not modify the markup within the <body> element.
+   
+3. You will have to use a CSS3 feature that will require some research on your own. 
+   The background-size property can be used to force a background image to resize to the browser window.
+   
+4. Notice that two of the blocks in Figure 3.33 are partially transparent. Remember that CSS3 allows you 
+   to specify the alpha transparency of any color.
+   
+5. Finally, the header uses the font Six Caps, which will have to be supplemented with other options in 
+   the font stack in the event that font is not present on the client’s computer.
+   
+Testing
+
+1. First, try resizing your browser to ensure the image resizes dynamically to fill the space, and the 
+   floating objects position themselves correctly.
+   
+2. Try out different browsers or platforms to see if it really works on all types of devices, including 
+   your mobile phone.
+   
+Hint: This is tricky if you have not yet set up a web server. You may have to return to finish this particular 
+testing step until after you have access to a web server as described in Chapter 8.
