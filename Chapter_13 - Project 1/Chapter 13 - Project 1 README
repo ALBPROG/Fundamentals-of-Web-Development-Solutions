@@ -1,0 +1,48 @@
+Olti Asllanaj
+Spring 2017
+Chapter 13 - Project 1
+
+Project 1: Book rep Customer relations Management 
+DifficuLty LEvEL: Intermediate
+
+Overview
+
+Demonstrate your ability to work with PHP by converting the login page we have been developing over the last few chapters into a functioning authentication system that remembers a valid login using sessions and allows users to log out.
+Instructions
+
+1. You may begin by using your login page started in Chapter 8. You may recall that PHP did some simple field validation 
+in PHP.
+
+2. Create a new SQL table to store user credentials. Store at least one auto-generated UserID, as well as a username 
+and password combination they will use to log in (we will return to this in later projects).
+
+3. Modify the PHP script to handle the submitted form by validating the passed credentials against the database users. 
+   Upon a successful login, display a welcome message; otherwise, display the login page with an error message. 
+   Note: Remember to sanitize your user inputs.
+
+4. Add the session_start() to your existing PHP script to add session functionality. Note: If you are using multiple files,
+   be sure to include session_start() in each one that has to make use of the session variables.
+
+5. When the user login is successful, set a new $_SESSION['UserID'] variable to hold a value associated with the session. 
+   For the sake of simplicity, store the user’s unique UserID from our database schema.
+
+6. Modify the PHP code that generates the login page. Have it first check the $_SESSION variable to see if a user ID has 
+   been set. If the session is not set, it displays a login page like before; otherwise, it should output a Welcome Page, 
+   with a link to log out as illustrated in Figure 13.15.
+
+7. Finally, create a page named logout.php, which calls the session_start() function, and then resets all the $_SESSION 
+   variables, calls session_destroy(), and then redirects back to the page it was clicked from (using the $_SERVER['REFERER'] 
+   value).
+
+Test
+
+1. Create one user in the database for testing purposes.
+
+2. Test the page by logging in with correct credentials. You should see the
+   Welcome screen and the Logout link.
+
+3. Try navigating away from the page and coming back to the login page. You
+   should see the Welcome message (i.e., the session is being saved between visits).
+
+4. Verify that clicking logout results in the session ending and starting back at
+   the login page.
