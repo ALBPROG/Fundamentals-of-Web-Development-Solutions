@@ -1,0 +1,37 @@
+Olti Asllanaj
+Spring 2017
+Chapter 9 - Project 1
+
+Project 1: art store 
+DifficuLty LEvEL: Beginner
+
+Overview
+
+Demonstrate your ability to work with arrays and superglobals in PHP.
+
+Instructions
+
+1. You have been provided with two files: the data entry form (Chapter09 -project01.php) and the page that will process 
+the form data (art-form-process .php). Examine both in the browser.
+
+2. Modify Chapter09-project01.php so that it uses the POST method and art-form-process.php as the form action.
+
+3. Modify art-form-process.php so that it displays the email, first name, last name, and privacy values that were 
+entered into the form, as shown in Figure 9.13. This will require using the appropriate superglobal array. 
+Also display the first name and last name in the welcome greeting.
+
+4. In art-form-process.php, define an array that contains the labels for the account menu (see Figure 9.13). 
+Replace the hard-coded list in the file with a loop that displays the equivalent list using the contents of your 
+just-defined array. Notice that some conditional logic will be required to add the class="active" attribute to the 
+correct <li> element.
+
+5. Modify art-footer.inc.php so that it includes the array defined within art-data.php. 
+Replace the hard-coded markup in the file with a loop that outputs the equivalent markup but uses the data defined 
+in the array.
+
+Test
+
+1. Test the page. Remember that you cannot simply open a local PHP page in the browser using its open command. 
+Instead you must have the browser request the page from a server. If you are using a local server such as XAMMP, 
+the file must exist within the htdocs folder of the server, and then the request will be 
+localhost/some-path/Chapter09-project01.php.
