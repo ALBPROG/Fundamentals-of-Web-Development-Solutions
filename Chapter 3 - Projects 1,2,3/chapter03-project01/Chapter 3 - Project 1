@@ -1,0 +1,49 @@
+Olti Asllanaj
+Spring 2017
+Chapter 3 - Project 1
+
+Project 1: Share Your travel photos, time for Some Style 
+difficuLty LEvEL: Beginner
+
+Overview
+
+This project updates your existing project from Chapter 2 to add some visual stylis- tic improvements with CSS.
+
+Instructions
+
+1. Use your chapter02-project01.html file from the last chapter as a starting point but save it as chapter03-project01.html.
+
+2. Create an external style sheet called reset.css that removes all the browser formatting from the main HTML 
+   elements and reference inside chapter03-project01.html as follows:
+   
+html, body, header, footer, hgroup, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+margin: 0;
+padding: 0;
+font-size: 100%; 
+vertical-align: 
+baseline; 
+border: 0;
+}
+
+3. Create another external style sheet named chapter03-project01.css and include it in your HTML file as well.
+
+4. Add styles to chapter03-project01.css so that it looks similar to that shown in Figure 3.31. 
+   Do not modify the markup within the <body> element.
+
+Be sure to group your style rules together in appropriate commented sections and to make your sizes scalable 
+(i.e., don’t use pixels for font sizes, padding, or margins).
+
+Here’s a hint for the header and footer.
+
+header, footer {
+color: white; 
+background-color: 
+#3D6271; 
+margin: 0em 4em 0.5em 4em;
+}
+
+Testing
+
+1. Although an exact match is not required, see how closely you can make your page look like the one 
+   in Figure 3.31. Be sure to test in multiple browsers and at different browser widths.
