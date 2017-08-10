@@ -1,0 +1,36 @@
+Olti Asllanaj
+Spring 2017
+Chapter 9 - Project 2
+
+Project 2: share your travel photos 
+DifficuLty LEvEL: Intermediate
+
+Overview
+
+You have been provided with two files: a page that will eventually contain thumb- nails for a variety of travel 
+images (Chapter09-project02.php) and a page that will eventually display the details of a single travel image 
+(travel-image.php). Clicking a thumbnail in the first file will take you to the second page where you will be 
+able to see details for that image, as shown in Figure 9.14.
+
+Instructions
+
+1. Both pages will make use of arrays that are contained within the include file travel-data.php. 
+Include this file in both pages.
+
+2. Both pages make use of an include file called travel-left-rail.php, which contains the markup for the navigation 
+rail on the left side of both pages. Replace the hard-coded continents and countries lists in the file with loops 
+that output the equivalent markup but use the data defined in the arrays. After verifying that it works, use the 
+appropriate sort functions to sort the continents and countries arrays alphabetically. For the country list, notice 
+that the links include the code in the query string.
+
+3. Within Chapter09-project02.php in the <div> below the Favorites heading, replace the existing markup with a loop 
+that displays the thumbnail image and link for each of the elements within the $images array (which is provided within 
+travel-data.php). Notice that the links are to travel-image.php and that they pass the id element as a query string parameter.
+
+4. In travel-data.php, retrieve the passed id in the query string, and use it as an index into the $images array. 
+With that index, you can output the relevant title, image (in the images/travel/medium folder), user name, country,
+and description.
+
+Test
+
+1. Test the pages in the browser (see the test section of the previous section to remind yourself about how to do this).
