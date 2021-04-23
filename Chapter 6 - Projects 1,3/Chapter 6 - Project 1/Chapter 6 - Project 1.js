@@ -11,13 +11,13 @@ function isBlank(inputField) {
 }
 
 function makeRed(inputDiv) {
-   	inputDiv.style.backgroundColor = rgb(170, 0, 0);
-	inputDiv.parentNode.style.backgroundColor = rgb(170, 0, 0);
-	inputDiv.parentNode.style.color = rgb(255, 255, 255);
+   	inputDiv.style.backgroundColor = 'rgb(170, 0, 0)';
+	inputDiv.parentNode.style.backgroundColor = 'rgb(170, 0, 0)';
+	inputDiv.parentNode.style.color = 'rgb(255, 255, 255)';
 }
 function makeClean(inputDiv){
-	inputDiv.parentNode.style.backgroundColor = rgb(255, 255, 255);
-	inputDiv.parentNode.style.color = rgb(0, 0, 0);		
+	inputDiv.parentNode.style.backgroundColor = 'rgb(255, 255, 255)';
+	inputDiv.parentNode.style.color = 'rgb(0, 0, 0)';		
 }
 
 window.onload = function() {
