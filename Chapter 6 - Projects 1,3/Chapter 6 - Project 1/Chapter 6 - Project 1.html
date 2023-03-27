@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head >
    <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
    <title>Chapter06-Project01</title>
    <link rel="stylesheet" href="reset.css" />
    <link rel="stylesheet" href="Chapter 6 - Project 1.css" />
@@ -16,11 +19,11 @@
             <td colspan="2">
                <p>
                <label>Title</label><br/>
-               <input type="text" name="title" size="80" class="required" />
+               <input title="title" type="text" name="title" size="80" class="required" />
                </p>
                <p>
                <label>Description</label><br/>
-               <textarea name="description" rows="5" cols="61" class="required">
+               <textarea name="description" rows="5" cols="61" placeholder="enter your description" class="required">
                </textarea>
                </p>            
             </td>
@@ -29,7 +32,7 @@
             <td> 
                <p> 
                <label>Continent</label><br/>
-               <select name="continent">
+               <select title="continent" name="continent">
                   <option>Choose continent</option> 
                   <option>Africa</option>
                   <option>Asia</option>
@@ -40,7 +43,7 @@
                </p>
                <p> 
                <label>Country</label><br/>
-               <select name="country">
+               <select title="country" name="country">
                   <option>Choose country</option> 
                   <option>Canada</option>
                   <option>Mexico</option>
@@ -49,7 +52,7 @@
                </p>
                <p>	
                <label>City</label><br/>               
-               <input type="text" name="city" list="cities"  size="40"/>
+               <input title="city" type="text" name="city" list="cities"  size="40"/>
                <datalist id="cities">
                   <option>Calgary</option>                
                   <option>Montreal</option>
@@ -61,15 +64,15 @@
             <td>
                <div class="box">
                   <label>Copyright? </label><br/>
-                  <input type="radio" name="copyright" value="1">All rights reserved<br/>
-                  <input type="radio" name="copyright" value="2" checked>Creative Commons<br/>
+                  <input title="copyright?" type="radio" name="copyright" value="1">All rights reserved<br/>
+                  <input title="copyright?" type="radio" name="copyright" value="2" checked>Creative Commons<br/>
                </div>
                <div class="box">
                   <label>Creative Commons Types </label><br/>
-                  <input type="checkbox" name="cc" >Attribution <br/>
-                  <input type="checkbox" name="cc" >Noncommercial <br/>    
-                  <input type="checkbox" name="cc" >No Derivative Works <br/>  
-                  <input type="checkbox" name="cc" >Share Alike
+                  <input title="types" type="checkbox" name="cc" >Attribution <br/>
+                  <input title="types" type="checkbox" name="cc" >Noncommercial <br/>    
+                  <input title="types" type="checkbox" name="cc" >No Derivative Works <br/>  
+                  <input title="types" type="checkbox" name="cc" >Share Alike
                </div>               
             </td>
          </tr>
@@ -77,7 +80,7 @@
             <td colspan="2" >
             <div class="rectangle"> 
                <label>I accept the software license</label>
-               <input type="checkbox" name="accept" class="required">
+               <input title="license" type="checkbox" name="accept" class="required">
             </div>
             </td>
          </tr>
